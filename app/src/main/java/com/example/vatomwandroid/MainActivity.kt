@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        this.vatomWallet = VatomWallet(this, "", creds.vatom.accessToken, creds.vatom.refreshToken)
+        this.vatomWallet = VatomWallet(this, "", "", "")
         setContentView(this.vatomWallet)
         //vatomWallet.load()
     }
